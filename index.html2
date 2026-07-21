@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Faith Holiness CDC</title>
+<style>
+body{
+font-family:Arial;
+max-width:900px;
+margin:auto;
+padding:30px;
+background:#f5f5f5;
+}
+header{
+background:#1f4b99;
+color:white;
+padding:20px;
+text-align:center;
+}
+section{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+}
+h2{
+color:#1f4b99;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Faith Holiness Community Development Corporation</h1>
+<p>Empowering Lives • Transforming Communities</p>
+</header>
+
+<section>
+
+<h2>About Us</h2>
+
+<p>
+Faith Holiness Community Development Corporation (Faith Holiness CDC)
+is committed to empowering lives and transforming communities through
+education, outreach, advocacy, and partnerships.
+</p>
+
+</section>
+
+<section>
+
+<h2>Our Mission</h2>
+
+<p>
+We connect youth, adults, seniors and families with resources that
+promote housing, employment, education, mental wellness, community
+engagement and spiritual support.
+</p>
+
+</section>
+
+<section>
+
+<h2>Upcoming Events</h2>
+
+<p>Summer Community Outreach</p>
+
+<ul>
+<li>June 20, 2026</li>
+<li>July 25, 2026</li>
+<li>August 15, 2026</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Contact</h2>
+
+<p>
+Phone: (718) 485-0904<br>
+Email: FaithHolinessCDC@gmail.com
+</p>
+
+</section>
+
+</body>
+</html>
