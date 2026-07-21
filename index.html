@@ -1,0 +1,1477 @@
+# Faith Holiness Community Development Corporation Website
+
+Welcome to the official website of Faith Holiness CDC - a community-focused nonprofit dedicated to empowering lives and transforming communities through outreach, support, and faith-based service.
+
+## About Faith Holiness CDC
+
+Faith Holiness Community Development Corporation (Faith Holiness CDC) hosts free community events that connect youth, men, women, seniors, and families with valuable resources and opportunities.
+
+### Our Mission
+To promote hope, love, peace, faith, and overall well-being while strengthening the communities we serve through outreach, support, and faith-based service.
+
+### What We Provide
+- **Housing Support** - Access to housing assistance programs and affordable housing information
+- **Employment Resources** - Job training, employment opportunities, and career counseling
+- **Education** - Educational resources, scholarships, and tutoring support
+- **Mental Health** - Counseling referrals, support groups, and wellness programs
+- **Non-Violence Initiatives** - Conflict resolution and community safety programs
+- **Spiritual Support** - Prayer groups, spiritual guidance, and pastoral care
+
+## Website Features
+
+### Navigation Tabs
+1. **Home** - Welcome and mission overview
+2. **About Us** - Learn more about our vision, values, and services
+3. **Resources** - Explore our comprehensive support services
+4. **Community Outreach** - Discover our various programs and initiatives
+5. **Photo Gallery** - Visual stories from our community events
+6. **Donate** - Support our mission (Zelle donations available)
+7. **Contact Us** - Get in touch or send us a message## How to Use
+
+1. Open `index.html` in your web browser
+2. Use the navigation bar to explore different sections
+3. Fill out the contact form to get in touch
+4. Share donation information via Zelle for contributions
+
+## Features Included
+
+- **Responsive Design** - Works on desktop, tablet, and mobile devices
+- **Tab Navigation** - Easy switching between different sections
+- **Contact Form** - Get in touch with the organization
+- **Resource Cards** - Clear presentation of available support services
+- **Photo Gallery** - Space for community event photos
+- **Donation Options** - Zelle payment integration instructions
+
+## Customization
+
+To customize the website:
+
+1. **Contact Information** - Update phone, email, and address in the Contact Us section
+2. **Zelle Details** - Add your Zelle email or phone number in the Donate section
+3. **Colors** - Modify CSS variables in `styles.css`:
+   - `--primary-color`: Main brand color
+   - `--secondary-color`: Accent color
+   - `--accent-color`: Call-to-action color
+
+4. **Photos** - Replace placeholder images in the Photo Gallery with actual community photos
+
+## Getting Started
+
+To add actual content:
+
+1. Update phone number: Replace "+1 (234) 567-8900" with your actual number
+2. Update email: Replace "info@faithholinesscdc.org" with your email
+3. Update location: Add your actual address
+4. Add photos: Replace gallery placeholders with real images
+5. Update donation details: Add your specific Zelle contact information
+
+## Support
+
+For questions about this website or to report issues, please contact:
+- Email: info@faithholinesscdc.org
+- Phone: +1 (234) 567-8900
+
+## License
+
+© 2024 Faith Holiness Community Development Corporation. All rights reserved.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Holiness CDC - Community Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Faith Holiness CDC</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" onclick="showTab('home')">Home</a></li>
+                <li><a href="#about" class="nav-link" onclick="showTab('about')">About Us</a></li>
+                <li><a href="#resources" class="nav-link" onclick="showTab('resources')">Resources</a></li>
+                <li><a href="#outreach" class="nav-link" onclick="showTab('outreach')">Community Outreach</a></li>
+                <li><a href="#gallery" class="nav-link" onclick="showTab('gallery')">Photo Gallery</a></li>
+                <li><a href="#donate" class="nav-link" onclick="showTab('donate')">Donate</a></li>
+                <li><a href="#contact" class="nav-link" onclick="showTab('contact')">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Tab -->
+    <section id="home" class="tab-content active">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Faith Holiness CDC</h2>
+                <p>Empowering Lives, Transforming Communities</p>
+                <div class="hero-text">
+                    <p>Faith Holiness Community Development Corporation (Faith Holiness CDC) is a community-focused nonprofit dedicated to empowering lives and transforming communities through outreach, support, and faith-based service.</p>
+                    <p>We host free community events that connect youth, men, women, seniors, and families with valuable resources and opportunities. By partnering with community-based organizations, we provide information on housing, employment, education, mental health, non-violence initiatives, and prayer for the community.</p>
+                    <p><strong>Our Mission:</strong> To promote hope, love, peace, faith, and overall well-being while strengthening the communities we serve.</p>
+                </div>
+                <button class="cta-button" onclick="showTab('resources')">Explore Resources</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Tab -->
+    <section id="about" class="tab-content">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <h3>Who We Are</h3>
+                <p>Faith Holiness Community Development Corporation is a nonprofit organization rooted in faith and committed to community empowerment. We believe that every individual deserves access to resources, support, and opportunities to thrive.</p>
+                
+                <h3>Our Vision</h3>
+                <p>To create vibrant, healthy communities where all individuals have access to essential resources and are empowered to reach their full potential.</p>
+                
+                <h3>Our Core Values</h3>
+                <ul class="values-list">
+                    <li><strong>Hope:</strong> We believe in a brighter future for everyone</li>
+                    <li><strong>Love:</strong> We serve with compassion and care</li>
+                    <li><strong>Peace:</strong> We promote harmony and non-violence</li>
+                    <li><strong>Faith:</strong> We are guided by spiritual principles</li>
+                    <li><strong>Community:</strong> We strengthen bonds through service</li>
+                </ul>
+
+                <h3>What We Do</h3>
+                <p>We serve diverse populations including:</p>
+                <ul class="values-list">
+                    <li>Youth and young adults</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Seniors</li>
+                    <li>Families</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Tab -->
+    <section id="resources" class="tab-content">
+        <div class="container">
+            <h2>Resources & Support</h2>
+            <p>Faith Holiness CDC partners with community-based organizations to provide comprehensive support across multiple areas:</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>🏠 Housing</h3>
+                    <p>Access to housing assistance programs, affordable housing information, and support services to ensure stable living conditions for all community members.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>💼 Employment</h3>
+                    <p>Job training programs, employment opportunities, resume building, and career counseling to help you achieve economic stability.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>📚 Education</h3>
+                    <p>Educational resources, scholarship information, tutoring support, and guidance for academic achievement at all levels.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>🧠 Mental Health</h3>
+                    <p>Mental health resources, counseling referrals, support groups, and wellness programs for emotional well-being.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>☮️ Non-Violence</h3>
+                    <p>Programs promoting peace, conflict resolution, violence prevention, and community safety initiatives.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>🙏 Prayer & Spiritual Support</h3>
+                    <p>Faith-based services, prayer groups, spiritual guidance, and pastoral care for the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Outreach Tab -->
+    <section id="outreach" class="tab-content">
+        <div class="container">
+            <h2>Our Community Outreach</h2>
+            <p>Faith Holiness CDC hosts free community events that bring people together and connect them with valuable resources and opportunities.</p>
+            
+            <div class="outreach-list">
+                <div class="outreach-item">
+                    <h3>Community Gatherings</h3>
+                    <p>Regular events where youth, men, women, seniors, and families come together for fellowship, support, and resource sharing.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Youth Programs</h3>
+                    <p>Specialized programs designed to empower young people with skills, mentorship, and opportunities for growth.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Women's Initiatives</h3>
+                    <p>Programs focused on empowering women through education, employment training, and peer support networks.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Senior Support</h3>
+                    <p>Resources and services designed to support our senior community members with dignity and respect.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Family Services</h3>
+                    <p>Programs that strengthen families through counseling, educational workshops, and recreational activities.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Men's Mentorship</h3>
+                    <p>Mentorship programs for men focused on personal development, leadership, and community involvement.</p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px; font-weight: bold;">Check back for upcoming events and program schedules!</p>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Tab -->
+    <section id="gallery" class="tab-content">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p>See our community in action through our photo gallery.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Community Event</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Youth Program</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Family Gathering</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Resource Fair</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Senior Support</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Mentorship</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px; font-size: 14px;">Photos coming soon! Upload your community moments with #FaithHolinessCDC</p>
+        </div>
+    </section>
+
+    <!-- Donations Tab -->
+    <section id="donate" class="tab-content">
+        <div class="container">
+            <h2>Support Our Mission</h2>
+            <div class="donation-content">
+                <h3>Make a Difference</h3>
+                <p>Your generous donation helps us continue our mission of empowering lives and transforming communities. Every contribution directly supports our programs and services for youth, families, seniors, and the broader community.</p>
+                
+                <h3>Donate via Zelle</h3>
+                <p>We accept donations through Zelle for your convenience. Zelle is a fast, safe, and secure way to send money directly to our organization.</p>
+                
+                <div class="donation-info">
+                    <p><strong>To donate via Zelle:</strong></p>
+                    <ol>
+                        <li>Open your banking app or Zelle app</li>
+                        <li>Select "Send Money" or "Pay"</li>
+                        <li>Enter our email or phone number:
+                            <div class="zelle-details">
+                                <p style="margin: 10px 0;"><strong>Email:</strong> <code>donations@faithholinesscdc.org</code></p>
+                                <p style="margin: 10px 0;"><strong>Or contact us for Zelle details</strong></p>
+                            </div>
+                        </li>
+                        <li>Enter your donation amount</li>
+                        <li>Complete your transfer</li>
+                    </ol>
+                </div>
+                
+                <div class="donation-box">
+                    <h4>Other Ways to Support</h4>
+                    <p>If you have questions about donations or would like to discuss other giving options, please contact us directly.</p>
+                    <button class="cta-button" onclick="showTab('contact')">Contact Us</button>
+                </div>
+
+                <h3>How Your Donation Helps</h3>
+                <ul class="values-list">
+                    <li>Fund free community events and programs</li>
+                    <li>Provide resources for housing, employment, and education</li>
+                    <li>Support mental health and wellness initiatives</li>
+                    <li>Promote non-violence and community safety</li>
+                    <li>Offer faith-based spiritual support</li>
+                    <li>Empower youth, women, seniors, and families</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Tab -->
+    <section id="contact" class="tab-content">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>We'd love to hear from you! Whether you have questions about our programs, want to volunteer, or need support, please reach out.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>📞 Phone</h4>
+                            <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📧 Email</h4>
+                            <p><a href="mailto:info@faithholinesscdc.org">info@faithholinesscdc.org</a></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📍 Location</h4>
+                            <p>Community Address<br>City, State ZIP Code</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>⏰ Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Faith Holiness Community Development Corporation. All rights reserved.</p>
+            <p>Empowering lives and transforming communities through outreach, support, and faith-based service.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>// Tab Navigation
+function showTab(tabName) {
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll('.tab-content');
+    tabContents.forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // Remove active class from all nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+    });
+
+    // Show the selected tab
+    const selectedTab = document.getElementById(tabName);
+    if (selectedTab) {
+        selectedTab.classList.add('active');
+    }
+
+    // Add active class to clicked nav link
+    event.target.classList.add('active');
+
+    // Scroll to top
+    window.scrollTo(0, 0);
+}
+
+// Handle contact form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            // Show confirmation message
+            alert('Thank you for your message! We will get back to you soon.\n\nMessage Details:\nName: ' + formData.name + '\nEmail: ' + formData.email + '\nSubject: ' + formData.subject);
+            
+            // Clear form
+            contactForm.reset();
+        });
+    }
+
+    // Set home as active tab on load
+    const homeTab = document.getElementById('home');
+    if (homeTab) {
+        homeTab.classList.add('active');
+    }
+    
+    const homeLink = document.querySelector('a[href="#home"]');
+    if (homeLink) {
+        homeLink.classList.add('active');
+    }
+});
+
+// Smooth scrolling for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') !== '#') {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+    });
+});
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Holiness CDC - Community Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Faith Holiness CDC</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" onclick="showTab('home')">Home</a></li>
+                <li><a href="#about" class="nav-link" onclick="showTab('about')">About Us</a></li>
+                <li><a href="#resources" class="nav-link" onclick="showTab('resources')">Resources</a></li>
+                <li><a href="#outreach" class="nav-link" onclick="showTab('outreach')">Community Outreach</a></li>
+                <li><a href="#gallery" class="nav-link" onclick="showTab('gallery')">Photo Gallery</a></li>
+                <li><a href="#donate" class="nav-link" onclick="showTab('donate')">Donate</a></li>
+                <li><a href="#contact" class="nav-link" onclick="showTab('contact')">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Tab -->
+    <section id="home" class="tab-content active">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Faith Holiness CDC</h2>
+                <p>Empowering Lives, Transforming Communities</p>
+                <div class="hero-text">
+                    <p>Faith Holiness Community Development Corporation (Faith Holiness CDC) is a community-focused nonprofit dedicated to empowering lives and transforming communities through outreach, support, and faith-based service.</p>
+                    <p>We host free community events that connect youth, men, women, seniors, and families with valuable resources and opportunities. By partnering with community-based organizations, we provide information on housing, employment, education, mental health, non-violence initiatives, and prayer for the community.</p>
+                    <p><strong>Our Mission:</strong> To promote hope, love, peace, faith, and overall well-being while strengthening the communities we serve.</p>
+                </div>
+                <button class="cta-button" onclick="showTab('resources')">Explore Resources</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Tab -->
+    <section id="about" class="tab-content">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <h3>Who We Are</h3>
+                <p>Faith Holiness Community Development Corporation is a nonprofit organization rooted in faith and committed to community empowerment. We believe that every individual deserves access to resources, support, and opportunities to thrive.</p>
+                
+                <h3>Our Vision</h3>
+                <p>To create vibrant, healthy communities where all individuals have access to essential resources and are empowered to reach their full potential.</p>
+                
+                <h3>Our Core Values</h3>
+                <ul class="values-list">
+                    <li><strong>Hope:</strong> We believe in a brighter future for everyone</li>
+                    <li><strong>Love:</strong> We serve with compassion and care</li>
+                    <li><strong>Peace:</strong> We promote harmony and non-violence</li>
+                    <li><strong>Faith:</strong> We are guided by spiritual principles</li>
+                    <li><strong>Community:</strong> We strengthen bonds through service</li>
+                </ul>
+
+                <h3>What We Do</h3>
+                <p>We serve diverse populations including:</p>
+                <ul class="values-list">
+                    <li>Youth and young adults</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Seniors</li>
+                    <li>Families</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Tab -->
+    <section id="resources" class="tab-content">
+        <div class="container">
+            <h2>Resources & Support</h2>
+            <p>Faith Holiness CDC partners with community-based organizations to provide comprehensive support across multiple areas:</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>🏠 Housing</h3>
+                    <p>Access to housing assistance programs, affordable housing information, and support services to ensure stable living conditions for all community members.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>💼 Employment</h3>
+                    <p>Job training programs, employment opportunities, resume building, and career counseling to help you achieve economic stability.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>📚 Education</h3>
+                    <p>Educational resources, scholarship information, tutoring support, and guidance for academic achievement at all levels.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>🧠 Mental Health</h3>
+                    <p>Mental health resources, counseling referrals, support groups, and wellness programs for emotional well-being.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>☮️ Non-Violence</h3>
+                    <p>Programs promoting peace, conflict resolution, violence prevention, and community safety initiatives.</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>🙏 Prayer & Spiritual Support</h3>
+                    <p>Faith-based services, prayer groups, spiritual guidance, and pastoral care for the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Outreach Tab -->
+    <section id="outreach" class="tab-content">
+        <div class="container">
+            <h2>Our Community Outreach</h2>
+            <p>Faith Holiness CDC hosts free community events that bring people together and connect them with valuable resources and opportunities.</p>
+            
+            <div class="outreach-list">
+                <div class="outreach-item">
+                    <h3>Community Gatherings</h3>
+                    <p>Regular events where youth, men, women, seniors, and families come together for fellowship, support, and resource sharing.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Youth Programs</h3>
+                    <p>Specialized programs designed to empower young people with skills, mentorship, and opportunities for growth.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Women's Initiatives</h3>
+                    <p>Programs focused on empowering women through education, employment training, and peer support networks.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Senior Support</h3>
+                    <p>Resources and services designed to support our senior community members with dignity and respect.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Family Services</h3>
+                    <p>Programs that strengthen families through counseling, educational workshops, and recreational activities.</p>
+                </div>
+                
+                <div class="outreach-item">
+                    <h3>Men's Mentorship</h3>
+                    <p>Mentorship programs for men focused on personal development, leadership, and community involvement.</p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px; font-weight: bold;">Check back for upcoming events and program schedules!</p>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Tab -->
+    <section id="gallery" class="tab-content">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p>See our community in action through our photo gallery.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Community Event</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Youth Program</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Family Gathering</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Resource Fair</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Senior Support</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <p>Mentorship</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px; font-size: 14px;">Photos coming soon! Upload your community moments with #FaithHolinessCDC</p>
+        </div>
+    </section>
+
+    <!-- Donations Tab -->
+    <section id="donate" class="tab-content">
+        <div class="container">
+            <h2>Support Our Mission</h2>
+            <div class="donation-content">
+                <h3>Make a Difference</h3>
+                <p>Your generous donation helps us continue our mission of empowering lives and transforming communities. Every contribution directly supports our programs and services for youth, families, seniors, and the broader community.</p>
+                
+                <h3>Donate via Zelle</h3>
+                <p>We accept donations through Zelle for your convenience. Zelle is a fast, safe, and secure way to send money directly to our organization.</p>
+                
+                <div class="donation-info">
+                    <p><strong>To donate via Zelle:</strong></p>
+                    <ol>
+                        <li>Open your banking app or Zelle app</li>
+                        <li>Select "Send Money" or "Pay"</li>
+                        <li>Enter our email or phone number:
+                            <div class="zelle-details">
+                                <p style="margin: 10px 0;"><strong>Email:</strong> <code>donations@faithholinesscdc.org</code></p>
+                                <p style="margin: 10px 0;"><strong>Or contact us for Zelle details</strong></p>
+                            </div>
+                        </li>
+                        <li>Enter your donation amount</li>
+                        <li>Complete your transfer</li>
+                    </ol>
+                </div>
+                
+                <div class="donation-box">
+                    <h4>Other Ways to Support</h4>
+                    <p>If you have questions about donations or would like to discuss other giving options, please contact us directly.</p>
+                    <button class="cta-button" onclick="showTab('contact')">Contact Us</button>
+                </div>
+
+                <h3>How Your Donation Helps</h3>
+                <ul class="values-list">
+                    <li>Fund free community events and programs</li>
+                    <li>Provide resources for housing, employment, and education</li>
+                    <li>Support mental health and wellness initiatives</li>
+                    <li>Promote non-violence and community safety</li>
+                    <li>Offer faith-based spiritual support</li>
+                    <li>Empower youth, women, seniors, and families</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Tab -->
+    <section id="contact" class="tab-content">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>We'd love to hear from you! Whether you have questions about our programs, want to volunteer, or need support, please reach out.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>📞 Phone</h4>
+                            <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📧 Email</h4>
+                            <p><a href="mailto:info@faithholinesscdc.org">info@faithholinesscdc.org</a></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📍 Location</h4>
+                            <p>Community Address<br>City, State ZIP Code</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>⏰ Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Faith Holiness Community Development Corporation. All rights reserved.</p>
+            <p>Empowering lives and transforming communities through outreach, support, and faith-based service.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --success-color: #27ae60;
+    --light-bg: #ecf0f1;
+    --text-color: #333;
+    --light-text: #666;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background-color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+    background-color: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.hero-text p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.cta-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    min-height: 60vh;
+}
+
+.tab-content.active {
+    display: block;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.tab-content .container {
+    padding: 60px 20px;
+}
+
+/* Section Headings */
+.tab-content h2 {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+.tab-content h3 {
+    color: var(--secondary-color);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.tab-content > .container > p {
+    color: var(--light-text);
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+/* About Section */
+.about-content {
+    max-width: 900px;
+    line-height: 1.8;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    color: var(--light-text);
+}
+
+.values-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.values-list li {
+    padding: 12px 0;
+    padding-left: 30px;
+    position: relative;
+    color: var(--light-text);
+}
+
+.values-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--success-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Resources Grid */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.resource-card {
+    background: var(--light-bg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.resource-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    color: var(--light-text);
+    line-height: 1.7;
+}
+
+/* Outreach Section */
+.outreach-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.outreach-item {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid var(--secondary-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.outreach-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.outreach-item p {
+    color: var(--light-text);
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-placeholder {
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Donation Section */
+.donation-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.donation-content h3 {
+    color: var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.donation-content p {
+    color: var(--light-text);
+    margin-bottom: 15px;
+}
+
+.donation-info {
+    background: var(--light-bg);
+    padding: 25px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 5px solid var(--secondary-color);
+}
+
+.donation-info ol {
+    margin-left: 20px;
+    color: var(--light-text);
+}
+
+.donation-info li {
+    margin-bottom: 10px;
+}
+
+.zelle-details {
+    background: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.zelle-details code {
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    color: var(--primary-color);
+}
+
+.donation-box {
+    background: #f0f8ff;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 30px 0;
+    border: 2px solid var(--secondary-color);
+}
+
+.donation-box h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.contact-info {
+    background: var(--light-bg);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-details {
+    margin-top: 25px;
+}
+
+.contact-item {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.contact-item h4 {
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.contact-item p {
+    color: var(--light-text);
+}
+
+.contact-item a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.contact-form .cta-button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .nav-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
+    .logo h1 {
+        font-size: 1.3rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .tab-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text {
+        padding: 20px;
+    }
+
+    .resources-grid,
+    .outreach-list,
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        gap: 0.15rem;
+    }
+
+    .nav-link {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .tab-content .container {
+        padding: 30px 15px;
+    }
+}// Tab Navigation
+function showTab(tabName) {
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll('.tab-content');
+    tabContents.forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // Remove active class from all nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+    });
+
+    // Show the selected tab
+    const selectedTab = document.getElementById(tabName);
+    if (selectedTab) {
+        selectedTab.classList.add('active');
+    }
+
+    // Add active class to clicked nav link
+    event.target.classList.add('active');
+
+    // Scroll to top
+    window.scrollTo(0, 0);
+}
+
+// Handle contact form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            // Show confirmation message
+            alert('Thank you for your message! We will get back to you soon.\n\nMessage Details:\nName: ' + formData.name + '\nEmail: ' + formData.email + '\nSubject: ' + formData.subject);
+            
+            // Clear form
+            contactForm.reset();
+        });
+    }
+
+    // Set home as active tab on load
+    const homeTab = document.getElementById('home');
+    if (homeTab) {
+        homeTab.classList.add('active');
+    }
+    
+    const homeLink = document.querySelector('a[href="#home"]');
+    if (homeLink) {
+        homeLink.classList.add('active');
+    }
+});
+
+// Smooth scrolling for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') !== '#') {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+    });
+});# Faith Holiness Community Development Corporation Website
+
+Welcome to the official website of Faith Holiness CDC - a community-focused nonprofit dedicated to empowering lives and transforming communities through outreach, support, and faith-based service.
+
+## About Faith Holiness CDC
+
+Faith Holiness Community Development Corporation (Faith Holiness CDC) hosts free community events that connect youth, men, women, seniors, and families with valuable resources and opportunities.
+
+### Our Mission
+To promote hope, love, peace, faith, and overall well-being while strengthening the communities we serve through outreach, support, and faith-based service.
+
+### What We Provide
+- **Housing Support** - Access to housing assistance programs and affordable housing information
+- **Employment Resources** - Job training, employment opportunities, and career counseling
+- **Education** - Educational resources, scholarships, and tutoring support
+- **Mental Health** - Counseling referrals, support groups, and wellness programs
+- **Non-Violence Initiatives** - Conflict resolution and community safety programs
+- **Spiritual Support** - Prayer groups, spiritual guidance, and pastoral care
+
+## Website Features
+
+### Navigation Tabs
+1. **Home** - Welcome and mission overview
+2. **About Us** - Learn more about our vision, values, and services
+3. **Resources** - Explore our comprehensive support services
+4. **Community Outreach** - Discover our various programs and initiatives
+5. **Photo Gallery** - Visual stories from our community events
+6. **Donate** - Support our mission (Zelle donations available)
+7. **Contact Us** - Get in touch or send us a message
+
+## File Structure
+## How to Use
+
+1. Open `index.html` in your web browser
+2. Use the navigation bar to explore different sections
+3. Fill out the contact form to get in touch
+4. Share donation information via Zelle for contributions
+
+## Features Included
+
+- **Responsive Design** - Works on desktop, tablet, and mobile devices
+- **Tab Navigation** - Easy switching between different sections
+- **Contact Form** - Get in touch with the organization
+- **Resource Cards** - Clear presentation of available support services
+- **Photo Gallery** - Space for community event photos
+- **Donation Options** - Zelle payment integration instructions
+
+## Customization
+
+To customize the website:
+
+1. **Contact Information** - Update phone, email, and address in the Contact Us section
+2. **Zelle Details** - Add your Zelle email or phone number in the Donate section
+3. **Colors** - Modify CSS variables in `styles.css`:
+   - `--primary-color`: Main brand color
+   - `--secondary-color`: Accent color
+   - `--accent-color`: Call-to-action color
+
+4. **Photos** - Replace placeholder images in the Photo Gallery with actual community photos
+
+## Getting Started
+
+To add actual content:
+
+1. Update phone number: Replace "+1 (234) 567-8900" with your actual number
+2. Update email: Replace "info@faithholinesscdc.org" with your email
+3. Update location: Add your actual address
+4. Add photos: Replace gallery placeholders with real images
+5. Update donation details: Add your specific Zelle contact information
+
+## Support
+
+For questions about this website or to report issues, please contact:
+- Email: info@faithholinesscdc.org
+- Phone: +1 (234) 567-8900
+
+## License
+
+© 2024 Faith Holiness Community Development Corporation. All rights reserved.
